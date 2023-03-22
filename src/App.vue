@@ -1,5 +1,14 @@
 <template>
-<ComForm />
+  <a-layout>
+    <a-layout-header></a-layout-header>
+    <a-layout-content>
+      <ComForm />
+
+
+    </a-layout-content>
+    <a-layout-footer></a-layout-footer>
+  </a-layout>
+
 </template>
 
 <script>
@@ -12,3 +21,14 @@ components: {
 },
 });
 </script>
+
+<style>
+
+.ant-layout-content{
+  padding: 20px;
+  background: #FAFAFA;
+}
+
+
+
+</style>

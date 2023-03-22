@@ -1,4 +1,9 @@
 <template>
+  <a-card 
+  style="width: 50%; margin: auto; padding: 10px; box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.05)"
+  :bordered="false"
+  
+  >
   <a-form
     :model="formState"
     name="validate_other"
@@ -141,6 +146,7 @@
       <a-button type="primary" html-type="submit">Submit</a-button>
     </a-form-item>
   </a-form>
+</a-card>
 </template>
 <script>
 import { defineComponent, reactive } from 'vue';
