@@ -1,20 +1,24 @@
 <template>
   <a-layout>
     <a-layout-sider>
-      <SideBar/>
+      <SideBar />
 
     </a-layout-sider>
     <a-layout>
-    <a-layout-header></a-layout-header>
-    <a-layout-content>
-      <CustomerService/>
+      <a-layout-header></a-layout-header>
+      <a-layout-content>
+        <CustomerService />
 
 
-    </a-layout-content>
-    <a-layout-footer></a-layout-footer>
+      </a-layout-content>
+      <a-layout-footer style="text-align: center;">
+
+        <div style="margin-top: 80px; margin-bottom: 50px">
+          Made with lots of ☕️ and ❤️ @ 2023 Sphere by Links Field
+        </div>
+      </a-layout-footer>
+    </a-layout>
   </a-layout>
-  </a-layout>
-
 </template>
 
 <script>
@@ -25,21 +29,17 @@ import CustomerService from './components/CustomerService.vue';
 
 
 export default defineComponent({
-components: {
-  // ComForm,
-  SideBar,
-  CustomerService,
-},
+  components: {
+    // ComForm,
+    SideBar,
+    CustomerService,
+  },
 });
 </script>
 
 <style>
-
-.ant-layout-content{
+.ant-layout-content {
   padding: 20px;
   background: #FAFAFA;
 }
-
-
-
 </style>
