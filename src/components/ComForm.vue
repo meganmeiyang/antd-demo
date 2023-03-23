@@ -1,6 +1,6 @@
 <template>
   <a-card 
-  style="width: 50%; margin: auto; padding: 10px; box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.05)"
+  style="width: 70%; margin: auto; padding: 10px; box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.05)"
   :bordered="false"
   
   >
